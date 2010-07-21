@@ -71,7 +71,7 @@ class Capture(Plugin):
         """Add captured output to error report.
         """
         test.capturedOutput = output = self.buffer
-        self._buf = None
+        #self._buf = None
         if not output:
             # Don't return None as that will prevent other
             # formatters from formatting and remove earlier formatters
