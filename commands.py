@@ -94,10 +94,10 @@ else:
         user_options = get_user_options(__parser)
 
         def initialize_options(self):
-            """create the member variables, but change hyphens to
+            """
+            create the member variables, but change hyphens to
             underscores
             """
-            
             self.option_to_cmds = {}
             for opt in self.__parser.option_list:
                 cmd_name = opt._long_opts[0][2:]

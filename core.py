@@ -1,4 +1,5 @@
-"""Implements nose test program and collector.
+"""
+Implements nose test program and collector.
 """
 from __future__ import generators
 
